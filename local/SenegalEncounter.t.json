@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "03a069a3-424f-41d9-89ef-f839537bb142",
-      "MD5-CAM-1.0.1" : "7a919b3956cadaee67bc771122b229dc",
+      "MD5-CAM-1.0.1" : "707bbe9e0ac484e7e0fd1c14e9410e8b",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
     },
     "details" : {
@@ -430,6 +430,13 @@
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "items",
             "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
+              "nodeId" : "at0002.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0004.1",
@@ -1071,14 +1078,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0002.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0002.1",
-            "text" : "Other",
-            "description" : "The summary, assessment, conclusions or evaluation of the clinical findings."
-          }
-        },
+        "en" : { },
         "fa" : { },
         "ar-sy" : { },
         "de" : { },
