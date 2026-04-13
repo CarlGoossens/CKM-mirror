@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.1.0",
       "original_language" : "ISO_639-1::en",
-      "MD5-CAM-1.0.1" : "dee34fa19244dd932e6c1abcc8cecad5",
+      "MD5-CAM-1.0.1" : "47f3edd110c10b02fbc3ef3ef710a5e9",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB",
       "build_uid" : "edffd91e-44b2-445d-8259-a015f3441076"
     },
@@ -555,7 +555,181 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "local_terms"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "local_terms" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "local_terms",
+                        "code" : "1",
+                        "value" : "Trouble de conscience"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "2",
+                        "value" : "Crises"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "3",
+                        "value" : "Agitation/agressivitè"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "4",
+                        "value" : "Adynamie/torpeur/somnolemce"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "5",
+                        "value" : "Fièvre (chaleur corporelle)"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "6",
+                        "value" : "Frissons (froid, tremblements)"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "7",
+                        "value" : "Sueurs"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "8",
+                        "value" : "Céphalées"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "9",
+                        "value" : "Myalgies"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "10",
+                        "value" : "Insomnie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "11",
+                        "value" : "Flou visuel"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "12",
+                        "value" : "Vertiges"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "13",
+                        "value" : "Otalgie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "14",
+                        "value" : "Otorrhèe"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "15",
+                        "value" : "Bourdonnement d'oreille"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "16",
+                        "value" : "Rhinorrhèe"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "17",
+                        "value" : "Obstruction nasale"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "18",
+                        "value" : "Éternuement"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "19",
+                        "value" : "Rougeur des yeux"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "20",
+                        "value" : "Douleurs oculaiires"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "21",
+                        "value" : "Larmoiement"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "22",
+                        "value" : "Difficulté à ouvrir la bouche"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "23",
+                        "value" : "Dysphagie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "24",
+                        "value" : "Odynophagie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "25",
+                        "value" : "Douleurs thoraciques"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "26",
+                        "value" : "Toux Dyspnée"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "27",
+                        "value" : "Hémoptysie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "28",
+                        "value" : "Nausées"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "29",
+                        "value" : "Vomissements"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "30",
+                        "value" : "Douleurs abdominables"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "31",
+                        "value" : "Diarrhèe"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "32",
+                        "value" : "Constipation"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "33",
+                        "value" : "Trouble marche ou équilibre"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "34",
+                        "value" : "Tremblement"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "35",
+                        "value" : "Crampe"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "36",
+                        "value" : "Anorexie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "37",
+                        "value" : "Asthènie"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "38",
+                        "value" : "Amaigrissement"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "39",
+                        "value" : "Arthralgies"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "99",
+                        "value" : "Autres(s) motif(s)"
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
