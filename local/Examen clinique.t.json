@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "3f937710-0eb1-442b-a21e-6c7c483e79b8",
-      "MD5-CAM-1.0.1" : "561acbd817196f6a0da4479b6e8caee5",
+      "MD5-CAM-1.0.1" : "b4467ed93953af5ca56185d08748bd94",
       "PARENT:MD5-CAM-1.0.1" : "45E854C074D1195F3280B279C265B7C7"
     },
     "details" : {
@@ -3263,6 +3263,12 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0004.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
                           "occurrences" : "0..0",
                           "nodeId" : "at0040.1",
                           "attributes" : [ {
@@ -3342,6 +3348,13 @@
             "code" : "at0022.1",
             "text" : "Ictère",
             "description" : "Details about a specific issue, problem or diagnosis or grouping of problems or diagnoses relevant for the screening purpose."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "Ictère",
+            "description" : "Identification of an issue, problem or diagnosis, or grouping of issues, problems or diagnoses, by name.",
+            "comment" : "Coding of the 'Problem/diagnosis name' with a terminology is preferred, where possible."
           }
         },
         "nb" : {
@@ -3766,6 +3779,12 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0004.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
                           "occurrences" : "0..0",
                           "nodeId" : "at0040.1",
                           "attributes" : [ {
@@ -3845,6 +3864,13 @@
             "code" : "at0022.1",
             "text" : "cyanose",
             "description" : "Details about a specific issue, problem or diagnosis or grouping of problems or diagnoses relevant for the screening purpose."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "cyanose",
+            "description" : "Identification of an issue, problem or diagnosis, or grouping of issues, problems or diagnoses, by name.",
+            "comment" : "Coding of the 'Problem/diagnosis name' with a terminology is preferred, where possible."
           }
         },
         "nb" : {
@@ -5779,6 +5805,12 @@
                         "children" : [ {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0004.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
                           "occurrences" : "0..0",
                           "nodeId" : "at0040.1",
                           "attributes" : [ {
@@ -5858,6 +5890,13 @@
             "code" : "at0022.1",
             "text" : "Souplesse des mollets",
             "description" : "Details about a specific issue, problem or diagnosis or grouping of problems or diagnoses relevant for the screening purpose."
+          },
+          "at0004.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0004.1",
+            "text" : "cyanose",
+            "description" : "Identification of an issue, problem or diagnosis, or grouping of issues, problems or diagnoses, by name.",
+            "comment" : "Coding of the 'Problem/diagnosis name' with a terminology is preferred, where possible."
           }
         },
         "nb" : {
