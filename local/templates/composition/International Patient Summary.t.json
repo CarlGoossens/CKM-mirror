@@ -22,10 +22,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "8f94f6a57edfc34078847c2b45194c22",
+      "MD5-CAM-1.0.1" : "b9e4286a2638b6937cc7dc80bfa9daeb",
       "PARENT:MD5-CAM-1.0.1" : "B2D87AA57E3D01820E7DAE733A4644F7",
       "original_language" : "ISO_639-1::en",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.1.0",
       "build_uid" : "9c2cbb43-9aec-4df2-9041-589ce7d21ba8"
     },
     "details" : {
@@ -5262,7 +5262,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "ACTION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..*",
           "nodeId" : "at0.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -5271,7 +5271,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..0",
           "nodeId" : "at0.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -7971,7 +7971,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..0",
           "nodeId" : "at0.2",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -7980,7 +7980,7 @@
         }, {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..0",
           "nodeId" : "at0.3",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -10963,7 +10963,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "OBSERVATION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..*",
           "nodeId" : "at0.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
@@ -18767,7 +18767,7 @@
         "children" : [ {
           "@type" : "C_ARCHETYPE_ROOT",
           "rmTypeName" : "EVALUATION",
-          "occurrences" : "0..1",
+          "occurrences" : "0..*",
           "nodeId" : "at0.1",
           "attributes" : [ ],
           "attributeTuples" : [ ],
