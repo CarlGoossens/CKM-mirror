@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.1.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : "9075541d-b664-452f-be7a-a300fa79841b",
-      "MD5-CAM-1.0.1" : "65607de70fc2a95b4d5a87deddd439f9",
+      "MD5-CAM-1.0.1" : "1f816af3757927d68af374220dd31224",
       "PARENT:MD5-CAM-1.0.1" : "13D55DE5073CB5A79B7527DCB7E65582"
     },
     "details" : {
@@ -1469,37 +1469,7 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_CODED_TEXT",
               "occurrences" : "1..1",
-              "attributes" : [ {
-                "@type" : "C_ATTRIBUTE",
-                "rmAttributeName" : "defining_code",
-                "children" : [ {
-                  "@type" : "C_TERMINOLOGY_CODE",
-                  "rmTypeName" : "TERMINOLOGY_CODE",
-                  "occurrences" : "0..1",
-                  "terminologyId" : {
-                    "value" : "local_terms"
-                  },
-                  "constraint" : [ ],
-                  "selectedTerminologies" : [ "local_terms" ],
-                  "includedExternalTerminologyCodes" : [ {
-                    "terminologyId" : "local_terms",
-                    "code" : "1",
-                    "value" : "CS"
-                  }, {
-                    "terminologyId" : "local_terms",
-                    "code" : "2",
-                    "value" : "Hôpital"
-                  }, {
-                    "terminologyId" : "local_terms",
-                    "code" : "3",
-                    "value" : "Privè"
-                  }, {
-                    "terminologyId" : "local_terms",
-                    "code" : "4",
-                    "value" : "Domicile"
-                  } ]
-                } ]
-              } ],
+              "attributes" : [ ],
               "attributeTuples" : [ ]
             } ]
           } ],
